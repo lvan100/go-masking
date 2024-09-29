@@ -33,7 +33,7 @@ _, intercepted := masking.Mask(src, 2000)
 如果成功匹配到了 key，则将它记录下来，然后进行数据脱敏。假设我们有这样一棵前缀树：
 
 
-[trie_cn.png](trie_cn.png)
+![trie_cn.png](trie_cn.png)
 
 然后我们有这样一段日志:
 

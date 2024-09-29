@@ -34,7 +34,7 @@ The library constructs a trie tree from the rules. And the trie tree is
 used to find the longest match. If a match is found, it will be recorded,
 then the masking function will be applied. Assuming we have a trie tree:
 
-[trie_en.png](trie_en.png)
+![trie_en.png](trie_en.png)
 
 If we have a log like this:
 
