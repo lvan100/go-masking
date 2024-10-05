@@ -1,5 +1,12 @@
 # go-masking
 
+<div>
+ <img src="https://img.shields.io/github/license/lvan100/go-masking" alt="license"/>
+ <img src="https://img.shields.io/github/go-mod/go-version/lvan100/go-masking" alt="go-version"/>
+ <img src="https://img.shields.io/github/v/release/lvan100/go-masking?include_prereleases" alt="release"/>
+ <img src='https://coveralls.io/repos/github/lvan100/go-masking/badge.svg?branch=main' alt='Coverage Status' />
+</div>
+
 [中文](README_CN.md)
 
 Ultrafast log masking library. It can find the data that needs to be
@@ -28,7 +35,7 @@ err := masking.MergeRules(map[string]*masking.Rule{
 _, intercepted := masking.Mask(src, 2000)
 ```
 
-### Principle
+### Design
 
 The library constructs a trie tree from the rules. And the trie tree is
 used to find the longest match. If a match is found, it will be recorded,

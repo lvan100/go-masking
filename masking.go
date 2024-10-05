@@ -14,7 +14,9 @@
 
 package masking
 
-import "github.com/lvan100/go-masking/internal"
+import (
+	"github.com/lvan100/go-masking/internal"
+)
 
 // Rule represents a masking rule.
 type Rule = internal.Rule

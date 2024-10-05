@@ -1,5 +1,12 @@
 # go-masking
 
+<div>
+ <img src="https://img.shields.io/github/license/lvan100/go-masking" alt="license"/>
+ <img src="https://img.shields.io/github/go-mod/go-version/lvan100/go-masking" alt="go-version"/>
+ <img src="https://img.shields.io/github/v/release/lvan100/go-masking?include_prereleases" alt="release"/>
+ <img src='https://coveralls.io/repos/github/lvan100/go-masking/badge.svg?branch=main' alt='Coverage Status' />
+</div>
+
 [英文](README.md)
 
 超级快的日志脱敏库。它可以从日志中寻找到需要脱敏的数据，然后脱敏之。

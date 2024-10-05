@@ -16,11 +16,12 @@ package masking_test
 
 import (
 	"bytes"
-	"github.com/lvan100/go-masking"
 	"regexp"
 	"strconv"
 	"strings"
 	"testing"
+
+	"github.com/lvan100/go-masking"
 )
 
 var (

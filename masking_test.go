@@ -17,8 +17,6 @@ package masking_test
 import (
 	"bytes"
 	"errors"
-	"github.com/lvan100/go-masking"
-	"github.com/lvan100/go-masking/internal"
 	"math"
 	"os"
 	"path/filepath"
@@ -27,6 +25,9 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/lvan100/go-masking"
+	"github.com/lvan100/go-masking/internal"
 )
 
 var ruleMerged atomic.Bool
