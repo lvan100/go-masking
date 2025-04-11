@@ -19,6 +19,14 @@ import (
 	"strings"
 )
 
+// SectionCount represents the number of sections in the trie node structure.
+// There is a potential debate about whether SectionCount should be 7 (a prime
+// number) or 8 (a power of 2). While performing a modulo operation with 7 is
+// significantly slower than with 8, actual performance tests have shown
+// differences between the two. Using 7 as the modulus helps distribute data
+// more evenly, which can reduce the cost of queries, whereas using 8 may lead
+// to uneven data distribution and degrade query performance.
+// Therefore, the final choice is set to 7.
 const SectionCount = 7
 
 type CharState struct {
